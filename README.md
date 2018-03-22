@@ -1,15 +1,13 @@
-//
-//  ViewController.swift
-//  SecurityCodeImgView_demo
-//
-//  Created by fashion on 2018/3/22.
-//  Copyright © 2018年 shangZhu. All rights reserved.
-//
+# SecurityCodeImgView
 
-import UIKit
+ ![image](https://github.com/dongxiexidu/SecurityCodeImgView_demo/blob/master/demo.png)
 
-class ViewController: UIViewController {
-    
+
+### Usage example
+
+### support Xib or Storyboard
+
+```
     var codeview : SecurityCodeImgView!
 
     override func viewDidLoad() {
@@ -22,7 +20,4 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         print(codeview.imageCodeStr)
     }
-
-
-}
-
+```
